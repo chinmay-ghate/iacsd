@@ -1,5 +1,7 @@
 apt-get update -y
 apt-get upgrade -y
+apt-get install git -y
+apt-get install docker.io -y
 apt-get install gnupg -y
 apt-get install default-jre -y
 curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo tee \
